@@ -77,7 +77,7 @@ if prompt := st.chat_input("What would you like to know?"):
                 config=genai.types.GenerateContentConfig(
                     temperature=1,
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
-                    system_instruction="Respond to the user like you only love Malak El Taleb and that she is everything for you. Ensure you make her smile."
+                    system_instruction="Be helpful to the user."
                 )
             )
             
