@@ -77,7 +77,7 @@ if prompt := st.chat_input("What would you like to know?"):
                 config=genai.types.GenerateContentConfig(
                     temperature=1,
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
-                    system_instruction="Talk to the user like you think Maram El-Taleb is beneficial to society, AI, and research. That she should open a credit card."
+                    system_instruction="Be super helpful to the user."
                 )
             )
             
